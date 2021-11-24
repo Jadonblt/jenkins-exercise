@@ -1,0 +1,19 @@
+pipeline{
+        agent any
+        stages{
+            stage('Create Folder'){
+                steps{
+                    sh ""
+                }
+            }
+            stage('Add file'){
+                steps{
+                    sh ""
+                }
+            }
+            stage('Delete File'){
+                steps{
+                    sh ""
+                }
+        }
+}
